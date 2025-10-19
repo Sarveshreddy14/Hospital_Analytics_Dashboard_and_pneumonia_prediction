@@ -95,7 +95,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Data files (too large for GitHub)
+# Data files - keep processed but exclude very large raw files
 *.csv
 *.parquet
 *.npy
@@ -105,16 +105,16 @@ dmypy.json
 *.h5
 *.hdf5
 
-# Large datasets
+# Exclude very large raw datasets (too big for GitHub)
 MIMIC-III/
 physionet_dataset/
 xray_pneumonia/
-synthetic_health_risk_prediction/
-hospital_feedback/
 
-# Model files
-model_store/
-processed/
+# Keep smaller datasets and processed data
+# synthetic_health_risk_prediction/
+# hospital_feedback/
+# model_store/
+# processed/
 
 # Logs
 *.log

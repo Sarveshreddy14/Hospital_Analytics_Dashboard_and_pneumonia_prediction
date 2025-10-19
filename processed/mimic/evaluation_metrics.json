@@ -1,0 +1,23 @@
+{
+    "classification": {
+        "accuracy": 0.0,
+        "f1_score": 0.0,
+        "roc_auc": NaN
+    },
+    "regression": {
+        "mae": 47.80186250000001,
+        "rmse": 6.913889100932992,
+        "r2": -0.1901371375824421
+    },
+    "clustering": {
+        "n_clusters": 2,
+        "silhouette": 0.1641521794437927,
+        "calinski_harabasz": 2.2045606453302886
+    },
+    "association_rules": {
+        "n_rules": 20,
+        "max_lift": 43.0,
+        "max_confidence": 1.0,
+        "mean_support": 0.02325581395348837
+    }
+}
